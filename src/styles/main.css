@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-950;
+    @apply text-gray-50
+}
+
+dl {
+    @apply grid grid-cols-2
+}
+dt {
+    @apply font-semibold;
+}
+dd {
+    @apply font-light;
+}
+
+article a, footer a {
+    @apply font-semibold underline text-blue-400 transition duration-200 hover:text-white;
+}
+
+a.button {
+    @apply flex items-center justify-center space-x-2;
+    @apply font-semibold;
+    @apply transition duration-200 bg-gray-950 text-blue-400 border-solid border-2 border-blue-400 rounded-md px-4 py-2;
+    @apply hover:bg-blue-400 hover:text-white;
+    @apply no-underline;
+}
+
+p {
+    @apply leading-loose;
+}
+
+article img {
+    @apply object-fill w-full
+}
+
+article img.left {
+    @apply md:m-4 md:max-w-xs md:float-left md:object-contain md:w-auto object-fill w-full
+}
+
+article img.right {
+    @apply md:m-4 md:max-w-xs md:float-right md:object-contain md:w-auto object-fill w-full
+}
+
+article iframe {
+    @apply object-fill w-full
+}
+
+article iframe.left {
+    @apply md:m-4 md:max-w-xs md:float-left md:object-contain md:w-auto object-fill w-full
+}
+
+article iframe.right {
+    @apply md:m-4 md:max-w-xs md:float-right md:object-contain md:w-auto object-fill w-full
+}
+
+blockquote {
+    @apply border-blue-600 border-x-8 border-e-0 pl-2;
+}
+
+main p {
+    @apply mb-4 mt-2;
+}
+
+main h1 {
+    @apply text-5xl font-medium leading-tight;
+}
+
+main h2 {
+    @apply text-4xl font-medium leading-tight;
+}
+
+main h3 {
+     @apply text-3xl font-medium leading-tight;
+}
+
+main h4 {
+    @apply text-2xl font-medium leading-tight;
+}
+
+main h5 {
+    @apply text-xl font-medium leading-tight;
+}
+
+main h6 {
+    @apply text-base font-medium leading-tight;
+}
+
+main ul {
+    @apply ms-6 list-disc;
+}
+
+main ol {
+    @apply ms-6 list-decimal;
+}
+
+.mobile-nav-button {
+    @apply md:hidden inline-flex p-4 text-lg rounded-lg border-solid border-gray-600
+}
+
+pre {
+    @apply p-2 overflow-auto rounded-md border-blue-700 border-solid border-2;
+}
+
+code {
+    @apply rounded-sm p-1;
+    direction: ltr;
+}
+
+pre > code {
+    @apply p-0 leading-normal;
+    word-break: normal;
+    white-space: pre;
+    word-spacing: normal;
+    tab-size: 4;
+}

@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import FormattedDate from "./FormattedDate.astro";
+import Post from './Post.astro';
+
+const posts = (await getCollection('blog')).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const { limit = posts.length } = Astro.props;
+---
+
+<div class="grid grid-cols-1 md:grid-cols-3">
+    {
+        posts.slice(0, limit).map((post) => (
+                <Post url={`/blog/${post.slug}/`} title={post.data.title} description={post.data.description} image={post.data.heroImage}>
+                    <FormattedDate date={post.data.pubDate} />
+                </Post>
+        ))
+    }
+</div>

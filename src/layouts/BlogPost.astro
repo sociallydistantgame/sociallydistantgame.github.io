@@ -1,0 +1,13 @@
+---
+import Article from './Article.astro';
+
+import type { CollectionEntry } from 'astro:content';
+import FormattedDate from '../components/FormattedDate.astro';
+type Props = CollectionEntry<'blog'>['data'];
+
+const { useHeroOverlay = false, title, description, pubDate, updatedDate, heroImage, tags, category = "Uncategorized" } = Astro.props;
+---
+
+<Article title={title} description={description} heroImage={heroImage} pubDate={pubDate} updatedDate={updatedDate} category={category} tags={tags} useHeroOverlay={useHeroOverlay}>
+	<slot />
+</Article>

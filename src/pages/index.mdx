@@ -1,0 +1,47 @@
+---
+layout: '../layouts/Base.astro'
+leadTitle: "Hello!"
+lead: "I'm Michael. I am a blind game developer and C# programmer most well-known for my work as lead programmer of Restitched."
+ritchie: true
+---
+import BlogGrid from '../components/BlogGrid.astro';
+import SocialLinks from '../components/SocialLinks.astro';
+import ProjectGrid from '../components/ProjectGrid.astro';
+
+**Hey, you!** You're viewing the new version of my website. This version is still under construction, and there are bugs. If you find them, please [report an issue](https://github.com/acidiclight/acidiclight.github.io/issues).
+
+## My Work
+...All the things I do.
+
+<section name="my-work-recent-posts" class="container">
+<ProjectGrid limit="3" />
+</section>
+
+<a href="/my-work" class="button">View all my work</a>
+
+<div class="h-48" />
+
+## Blog
+…Where I write about writing code.
+
+<section name="blog-recent-posts" class="container">
+<BlogGrid limit="3" />
+</section>
+
+<a href="/blog" class="button">View all posts</a>
+
+<div class="h-48" />
+
+<section name="discord" class="container flex items-start space-x-4">
+<iframe src="https://discord.com/widget?id=957394367637749770&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+<div>
+## Hey, you! **Come say hi!**
+I have a Discord server! This is the best place to get in touch with me, keep track of the development of my games, and even share things you’re working on!
+                         
+### Or, find me elsewhere
+You can also find me on other social websites
+
+<SocialLinks />
+</div>
+</section>
