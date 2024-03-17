@@ -11,6 +11,8 @@ export const FOOTER_LOGO_ALT = "A game by acidic light";
 export const SITE_OWNER_URL = "https://acidiclight.dev/"
 export const COPYRIGHT_LEGAL_NAME = "Michael VanOverbeek";
 export const A11Y_ISSUE_LINK = "https://github.com/sociallydistantgame/sociallydistantgame.github.io/issues";
+export const HEADER_CTA_LINK = "/playtest"
+export const HEADER_CTA_TEXT = "Apply to playtest";
 
 export const SOCIAL_LINKS = [
     {
