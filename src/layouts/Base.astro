@@ -24,10 +24,10 @@ const pageTags = tags ? tags.split(',').map((tag) => tag.trim()) : [];
     <section class={heroImage ? `bg-cover ${useHeroOverlay ? 'bg-blend-overlay bg-blue-950' : ''}` : 'bg-blue-900'} style={heroImage ? `background-image: url('${heroImage}')` : ''}>
         <div class="container flex flex-col mx-auto items-center p-12 space-y-6">
             { ritchie &&
-                <img alt="Ritchie" src="/assets/ritchie.png" class="rounded-full object-fill border-2 border-solid border-white aspect-square w-96" />
+                <img alt="Socially Distant logo" src="/assets/logo-full.png" class="object-contain aspect-auto h-96" />
             }
-            { leadTitle && <h1 class="text-6xl text-center leading-tight">{leadTitle}</h1> }
-            { lead && <p class="text-xl font-light text-center">{lead}</p> }
+            { leadTitle && <h1 class="text-8xl font-bold text-center leading-tight">{leadTitle}</h1> }
+            { lead && <p class="text-4xl font-medium text-center">{lead}</p> }
 
             <div class="flex items-center space-x-12">
                 { category &&
