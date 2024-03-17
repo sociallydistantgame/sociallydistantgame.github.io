@@ -7,8 +7,20 @@ import FormattedDate from '../../components/FormattedDate.astro';
 ---
 
 <!doctype html>
-<Base title={SITE_TITLE} description={SITE_DESCRIPTION} leadTitle="Blog" lead="...where I write about my various mundane and probably boring adventures using a computer.">
+<Base title={SITE_TITLE} description={SITE_DESCRIPTION} leadTitle="Devlogs" lead="See what's being worked on in the game.">
 	<section class="container mx-auto">
+		<p>
+			New devlogs are posted on the first week of every month. They’re a great way to get a recap of what’s been worked on in the game and what’s coming next!
+		</p>
+		
+		<h2>Patreon Early Access</h2>
+		<p>
+			Are you supporting acidic light on Patreon? If so, new Socially Distant devlogs are posted there as early-access content one week before they are published to this site. If you’re not already a Patreon supporter, this is a great way to directly support the game’s development.
+		</p>
+		
+		<a class="button" href="https://patreon.com/acidiclight">Support Socially Distant</a>
+		
+		<h2>All devlogs</h2>
 		<BlogGrid />
 	</section>
 </Base>

@@ -22,7 +22,7 @@ article a, footer a {
 }
 
 a.button {
-    @apply flex items-center justify-center space-x-2;
+    @apply inline-flex items-center justify-center space-x-2;
     @apply font-semibold;
     @apply transition duration-200 bg-gray-950 text-blue-400 border-solid border-2 border-blue-400 rounded-md px-4 py-2;
     @apply hover:bg-blue-400 hover:text-white;
