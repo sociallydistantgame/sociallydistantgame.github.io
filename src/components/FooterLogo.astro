@@ -1,0 +1,16 @@
+---
+import {FOOTER_LOGO, FOOTER_LOGO_LINK, FOOTER_LOGO_ALT, SITE_TITLE, SITE_LOGO} from '../consts';
+import PrimaryLogo from './PrimaryLogo.astro';
+---
+
+{ !FOOTER_LOGO && <PrimaryLogo title={SITE_TITLE} logo={SITE_LOGO} /> }
+
+{ FOOTER_LOGO && FOOTER_LOGO_LINK && (
+    <a href={FOOTER_LOGO_LINK}>
+        <img src={FOOTER_LOGO} class="h-20 object-contain" alt={FOOTER_LOGO_ALT} />
+    </a>
+    )}
+
+{ FOOTER_LOGO && !FOOTER_LOGO_LINK && (
+    <img src={FOOTER_LOGO} class="h-20 object-contain" alt={FOOTER_LOGO_ALT} />
+    )}

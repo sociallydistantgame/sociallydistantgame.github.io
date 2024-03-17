@@ -1,23 +1,21 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-export const SITE_TITLE = 'acidic light';
-export const SITE_LOGO = "/assets/acidiclight.png";
-export const FOOTER_EXTRA = "All rights reserved. Ritchie artwork by potato farm.";
-export const SITE_DESCRIPTION = "Blind game developer and proghrammer most well-known for being lead programmer of Restitched.";
+export const SITE_TITLE = 'Socially Distant';
+export const SITE_LOGO = "/assets/logo-full.png";
+export const FOOTER_EXTRA = "All rights reserved. This project is under active development. Promotional content on this site is subject to change and may not reflect the final game.";
+export const SITE_DESCRIPTION = "Narrative-driven hacking game for PC set during a global pandemic";
+export const FOOTER_LOGO = "/assets/acidic-light-badge.png";
+export const FOOTER_LOGO_LINK = 'https://acidiclight.dev/';
+export const FOOTER_LOGO_ALT = "A game by acidic light";
 export const SITE_OWNER_URL = "https://acidiclight.dev/"
 export const COPYRIGHT_LEGAL_NAME = "Michael VanOverbeek";
-export const A11Y_ISSUE_LINK = "https://github.com/acidiclight/acidiclight.github.io/issues";
+export const A11Y_ISSUE_LINK = "https://github.com/sociallydistantgame/sociallydistantgame.github.io/issues";
 
 export const SOCIAL_LINKS = [
     {
-        name: 'Mastodon',
-        link: 'https://mastodon.social/@acidiclight',
-        icon: 'mdi:mastodon'
-    },
-    {
         name: 'GitHub',
-        link: 'https://github.com/acidiclight',
+        link: 'https://github.com/sociallydistantgame',
         icon: 'mdi:github'
     },
     {
@@ -29,12 +27,7 @@ export const SOCIAL_LINKS = [
         name: 'Patreon',
         link: 'https://patreon.com/acidiclight',
         icon: 'mdi:patreon'
-    },
-    {
-        name: 'YouTube',
-        link: 'https://youtube.com/c/AcidicLight',
-        icon: 'mdi:youtube'
-    },
+    }
 ]
 
 // TODO: Add support for child links
@@ -44,15 +37,15 @@ export const MENU_LINKS = [
         href: "/"
     },
     {
-        name: 'My Work',
-        href: '/my-work'
+        name: "Devlogs",
+        href: "/devlogs"
     },
     {
-        name: "Blog",
-        href: "/blog"
+        name: "Forum",
+        href: "https://forum.sociallydistantgame.com/"
     },
     {
-        name: "About Me",
-        href: "/about"
+        name: "Online Manual",
+        href: "https://man.sociallydistantgame.com/"
     }
 ];

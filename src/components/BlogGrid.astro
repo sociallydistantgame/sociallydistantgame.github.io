@@ -13,7 +13,7 @@ const { limit = posts.length } = Astro.props;
 <div class="grid grid-cols-1 md:grid-cols-3">
     {
         posts.slice(0, limit).map((post) => (
-                <Post url={`/blog/${post.slug}/`} title={post.data.title} description={post.data.description} image={post.data.heroImage}>
+                <Post url={`/devlogs/${post.slug}/`} title={post.data.title} description={post.data.description} image={post.data.heroImage}>
                     <FormattedDate date={post.data.pubDate} />
                 </Post>
         ))

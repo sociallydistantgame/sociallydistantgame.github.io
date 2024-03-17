@@ -7,7 +7,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://acidiclight.dev',
+  site: 'https://sociallydistantgame.com',
   markdown: {
     shikiConfig: {
       theme: 'min-dark',
