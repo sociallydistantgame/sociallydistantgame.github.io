@@ -55,6 +55,7 @@ Some more concepts were made for different layout and widget styles.
 <div class="grid grid-cols-1 md:grid-cols-2">
 
 ![Concepts for various basic form elements](/assets/blog/img_I8kqoVmClaNyi.png)
+
 ![Concepts for different kinds of layouts](/assets/blog/img_zDRQMkTYZjFbM.png)
 
 </div>
