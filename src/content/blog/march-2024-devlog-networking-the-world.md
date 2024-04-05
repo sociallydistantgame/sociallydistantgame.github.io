@@ -1,4 +1,10 @@
-﻿git stat
+﻿---
+title: "March 2024 Devlog: Networking the World"
+description: "We may have missed the February devlog this year, but that doesn't mean we haven't been hard at work. Let's take a look at what's being added in March of 2024 to Socially Distant."
+pubDate: "March 30 2024"
+heroImage: https://cdn.acidiclight.dev/original/1X/406655a28714328060f2f5075f5ed57806c5e3ca.png
+category: Devlog
+---
 
 The start of 2024 has been a very hectic period for Socially Distant. With a major UI rework in January, a lack of a devlog in February, and a major overhaul of the acidic light community services in March, we're really happy to announce we've pulled ourselves out of the rut. Now, it's time to make this game actually happen. So let's find out what's been added in March 2024!
 
