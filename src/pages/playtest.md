@@ -47,6 +47,6 @@ Applying to play-test the game is simple.
 
 > **Notice**: If you intend to play on a Steam Deck or otherr handheld, you must have a physical keyboard. An external display and mouse is also recommended. Socially Distant isn’t intended to be played on a handheld gaming device.
 
-**If you’re ready to get started**, click the button below. You will be directed to a Nextcloud form.
+**If you’re ready to get started**, fill out the form below. You will receive an email with further instructions if you are accepted. This form is hosted via Nextcloud on `hub.acidiclight.dev`.
 
-<a href="https://hub.acidiclight.dev/apps/forms/s/A8x2woqDrMwoDdns7aoKpafa" class="button">Become a play-tester</a>
+<iframe src="https://hub.acidiclight.dev/apps/forms/embed/ni8rr5WWaH3g8DKYBrozNdDP" height="600"></iframe>
