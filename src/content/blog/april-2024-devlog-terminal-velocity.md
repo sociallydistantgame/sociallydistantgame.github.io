@@ -2,7 +2,7 @@
 title: "April 2024 Devlog: Terminal Velocity"
 description: "While March saw lots of work related to the game's networking simulation code, this month is all about making the game's command-line and interface much better... with a hint of gameplay work!"
 pubDate: "April 30 2024"
-heroImage: https://cdn.acidiclight.dev/original/1X/406655a28714328060f2f5075f5ed57806c5e3ca.png
+heroImage: https://cdn.acidiclight.dev/original/1X/6d88470a31cef897a9ec36f04ad5e6b2707dd9e0.jpeg
 category: Devlog
 ---
 
