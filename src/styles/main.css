@@ -29,6 +29,7 @@
 
 
 body {
+    @apply text-lg;
     @apply bg-gray-950;
     @apply text-gray-50
 }
